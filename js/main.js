@@ -52,7 +52,7 @@ window.addEventListener(
     }
   }, 300)
 )
-// 클릭시 상단으로 이동하는 버튼
+// 클릭시 위 버튼
 toTopEl.addEventListener("click", function () {
   gsap.to(window, 0.7, {
     // 화면 위치 옮기기
